@@ -1,0 +1,19 @@
+-Replaced baseball, hammer, and vertical hammer anims. Hammer anim "swing" may not line up
+-Replaced all co anims
+-Replaced itemget anims
+-Experimental: Replaced itembag anims, mixed with various SMP anims. 
+-Replaced "step" and "slide" anims, experimental.
+-Replaced relevant "bd" anims
+
+To do:
+-Revisit "sys" anims
+-Stopped at pc13_sit_idle00 3/25
+
+
+Hammer Anims:	Replaced pc13_hmrh_idle00 with pc55_hmr_hit00 anims. Prev Mario anims, if issue, find under pc13_hmrh directory
+pc13_bd_itemget01a: Changed to Dry Bones itemget anims, test
+pc13_bd_slide00a: Changed to ground pound anims
+pc13_bd_itembag00a: Changed to SMP "deli" anims to test. Prev anims exported, probably Marios
+a, b, c: pc55_deli_catch00 , pc55_dice_random01, pc55_deli_put00
+pc13_co_breathlessly00a: Could be sorrow anim, or putting hand to chest "sigh" anim. Look for in-game
+pc13_co_ready00a: Changed anim to see where pops up. Previously was character select anim. Currently pc55_vs_act01a_l
